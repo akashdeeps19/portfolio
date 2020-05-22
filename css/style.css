@@ -1,0 +1,230 @@
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+background: black;
+}
+
+::-webkit-scrollbar-thumb {
+background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+/* start navigation */ 
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 0rem;
+    background: var(--background-color1);
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* end navigation */ 
+
+/* Banner Area */ 
+
+.site-main .site-banner {
+    
+    /* background: url(../img/banner/home-banner.png) no-repeat 0% 50%; */
+    background: var(--background-color1);
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 25%;
+    font-weight: 500;
+    color: var(--title-color);
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: white;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+    
+}
+
+.site-main .site-banner .site-title h1{
+    font-family: 'B612', sans-serif;
+    font-size: 5rem;
+    color: var(--title-color);
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+    color: var(--title-color);
+}
+
+.site-main .site-banner .site-title .site-buttons .secondary-button{
+    /* border-radius: 10px; */
+    border-color: var(--primary-color);
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+
+/* End Banner Area */ 
+
+/* Start About Area */ 
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+    background: var(--background-color1);
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 10px;
+    color: var(--title-color);
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */ 
+
+
+/* Project Area */ 
+
+.site-main .project-area{
+    padding: 4rem 0;
+    color: var(--text-color);
+    background: var(--background-color1);
+
+}
+
+.site-main .project-area h1{
+    font-size: 2rem;
+    letter-spacing: 8px;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+    /* background: var(--gradient-color); */
+}
+
+.site-main .project-area .button-group button{
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    color : white;
+}
+
+.site-main .project-area .button-group .active{
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    color : var(--primary-color);
+}
+
+.site-main .project-area .grid .our-project > .title{
+    padding-top: 0.5rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .modal-content{
+    background: var(--gradient-color); 
+    /* color: black   */
+}
+
+.site-main .project-area .grid .our-project .modal-content button{
+    /* color: black; */
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* End Project Area */ 
+
+
+/* Footer Area */ 
+
+footer.footer-area{
+    padding: 4rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+    color: var(--text-color);
+    background: var(--background-color1);
+}
+
+
+
+footer.footer-area .social .email{
+    background: var(--gradient-color);
+    /* color: black; */
+    width: max-content;
+    padding: 1% 5% 1% 5%;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+    /* color: var(--primary-color); */
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--primary-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color2);
+}
+
+
+/* End Footer */ 
