@@ -37,7 +37,7 @@ function addProject(project){
 addProject({
     id : 'project1',
     title : 'Google Drive ksdbfkjhgsdghjdghjdghsdjgkhgjdshjgdh ljldhgdkhakl lk',
-    img : './../img/p1.jpg',
+    img : './img/p1.jpg',
     tag : 'systems',
     description : 'this is a good but bad project',
     demo_link : 'github.com',
@@ -47,7 +47,7 @@ addProject({
 addProject({
     id : 'project2',
     title : 'Google Drive sdv ksdbfkjhgsdghjdghjdghsdjgkhgjdshjgdh ljldhgdkhakl lk',
-    img : './../img/p1.jpg',
+    img : './img/p1.jpg',
     tag : 'upcoming',
     description : 'this is a good bvdssdvsvdddddddddddddddddssssv vvvvvvvvvvvvvvvvut bad project',
     demo_link : 'github.com',
