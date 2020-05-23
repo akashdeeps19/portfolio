@@ -18,6 +18,7 @@ $(document).ready(function () {
     })
 
     $('.project-area .button-group #btn1').trigger('click');
+    $('.project-area .button-group #btn1').trigger('touch');
 
     let $navs = $('.main-menu .navbar-nav li');
 
