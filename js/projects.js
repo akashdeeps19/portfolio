@@ -115,3 +115,7 @@ $(document).ready(function () {
     $('.project-area .button-group #btn1').trigger('click');
     $('.project-area .button-group #btn1').trigger('touch');
 });
+$(window).on("load", function() {
+    $('.project-area .button-group #btn1').trigger('click');
+    $('.project-area .button-group #btn1').trigger('touch');
+});
