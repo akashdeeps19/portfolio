@@ -21,8 +21,8 @@ html, body{
     --gradient-color: linear-gradient(90deg, var(--primary-color) 0%,var(--primary-color2)  100%);
     --shadow-color:  0px 10px 30px rgba(225, 148, 85, 0.3);
     --box-shadow: 0px 10px 10px rgba(248, 247, 251, 0.1);
-    /* --background-color1 : linear-gradient( 135deg, #F97794 10%, #623AA2 100%); */
-    --background-color1 :linear-gradient(to right, #8e2de2, #4a00e0);
+    --background-color1 : linear-gradient(to right, #0575e6, #021b79);;
+    /* --background-color1 :linear-gradient(to right, #8e2de2, #4a00e0); */
 
     /* font family variables. */ 
     --roboto: 'Roboto' cursive;
